@@ -114,10 +114,6 @@
     },
     "sectionx": {
       "tag": "b"
-    },
-    "favicon": {
-      "shortcut": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/favicon.ico",
-      "bookmark": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/favicon.ico"
     }
   }
 }
