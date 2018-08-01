@@ -3,6 +3,4 @@
 * [简介](jian-jie.md)
 * [为什么要重构](README.md)
 * [产品设计](chan-pin-she-ji.md)
-* [用户登录](yong-hu-deng-lu.md)
-* [用户注册](yong-hu-zhu-ce.md)
 
