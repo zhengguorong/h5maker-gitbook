@@ -6,11 +6,6 @@
   "output.name": "site",
   "language": "zh-hans",
   "root": "./docs",
-  "links": {
-    "sidebar": {
-      "gitbook-notes": "https://github.com/zhengguorong/h5maker-gitbook"
-    }
-  },
   "plugins": [
     "-lunr",
     "-search",
