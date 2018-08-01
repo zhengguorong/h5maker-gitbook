@@ -2,7 +2,7 @@
   "gitbook": "3.2.2",
   "title": "h5maker-gitbook",
   "description": "h5maker开发文档",
-  "author": "Zhang Peng",
+  "author": "zhengguorong",
   "output.name": "site",
   "language": "zh-hans",
   "root": "./docs",
