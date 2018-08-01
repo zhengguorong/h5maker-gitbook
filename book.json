@@ -1,7 +1,7 @@
 {
   "gitbook": "3.2.2",
   "title": "h5maker-gitbook",
-  "description": "记录 GitBook 的配置和一些插件的使用",
+  "description": "h5maker开发文档",
   "author": "Zhang Peng",
   "output.name": "site",
   "language": "zh-hans",
