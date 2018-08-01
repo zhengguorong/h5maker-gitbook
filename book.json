@@ -1,11 +1,16 @@
 {
   "gitbook": "3.2.2",
-  "title": "h5maker-gitbook",
-  "description": "h5maker开发文档",
-  "author": "zhengguorong",
+  "title": "gitbook-notes",
+  "description": "记录 GitBook 的配置和一些插件的使用",
+  "author": "Zhang Peng",
   "output.name": "site",
   "language": "zh-hans",
   "root": "./docs",
+  "links": {
+    "sidebar": {
+      "gitbook-notes": "https://github.com/zhengguorong/h5maker-gitbook"
+    }
+  },
   "plugins": [
     "-lunr",
     "-search",
@@ -34,7 +39,8 @@
     "sitemap-general@^0.1.1",
     "anchor-navigation-ex@1.0.10",
     "favicon@^0.0.2",
-    "todo@^0.1.3"
+    "todo@^0.1.3",
+    "3-ba@^0.9.0"
   ],
   "pluginsConfig": {
     "theme-default": {
@@ -46,10 +52,10 @@
       ]
     },
     "github": {
-      "url": "https://github.com/zhengguorong/h5maker-gitbook"
+      "url": "https://github.com/dunwu/gitbook-notes"
     },
     "github-buttons": {
-      "repo": "zhengguorong/h5maker-gitbook",
+      "repo": "dunwu/gitbook-notes",
       "types": [
         "star"
       ],
@@ -69,16 +75,31 @@
       "vk": false
     },
     "tbfed-pagefooter": {
-      "copyright": "Copyright © zhengguorng 2018",
+      "copyright": "Copyright © Zhang Peng 2017",
       "modify_label": "文件最近一次修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "3-ba": {
+      "token": "98c1048ef34431fef7bec1693e4a15cf"
+    },
+    "donate": {
+      "wechat": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/weixin.jpg",
+      "alipay": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/zhifubao.jpg",
+      "title": "",
+      "button": "赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏"
     },
     "simple-page-toc": {
       "maxDepth": 4,
       "skipFirstH1": true
     },
+    "edit-link": {
+      "base": "https://github.com/dunwu/gitbook-notes/blob/master/docs",
+      "label": "编辑此页面"
+    },
     "sitemap-general": {
-      "prefix": "https://github.com/zhengguorong"
+      "prefix": "https://github.com/dunwu"
     },
     "anchor-navigation-ex": {
       "showLevel": false,
@@ -101,6 +122,10 @@
     },
     "sectionx": {
       "tag": "b"
+    },
+    "favicon": {
+      "shortcut": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/favicon.ico",
+      "bookmark": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/favicon.ico"
     }
   }
 }
