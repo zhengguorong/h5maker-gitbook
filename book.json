@@ -8,7 +8,7 @@
   "root": "./docs",
   "links": {
     "sidebar": {
-      "gitbook-notes": "https://github.com/dunwu/gitbook-notes"
+      "gitbook-notes": "https://github.com/zhengguorong/h5maker-gitbook"
     }
   },
   "plugins": [
