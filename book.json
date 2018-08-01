@@ -74,9 +74,6 @@
       "modify_label": "文件最近一次修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
-    "3-ba": {
-      "token": "98c1048ef34431fef7bec1693e4a15cf"
-    },
     "simple-page-toc": {
       "maxDepth": 4,
       "skipFirstH1": true
