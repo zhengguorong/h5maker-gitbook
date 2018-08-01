@@ -44,7 +44,7 @@ action，getter,mutation分开三个文件定义，在修改一个逻辑的时�
 
 vuex使用原则：**简单、直观**
 
-```
+```js
 export default {
   namespaced: true,
   state: {
@@ -59,7 +59,7 @@ export default {
     }
   },
   getters: {
-  	// 因为夫级已经是getter了，在定义名字的时候就没必要定义为getFormList
+      // 因为夫级已经是getter了，在定义名字的时候就没必要定义为getFormList
     formList (state) {
       return state.formList
     }
